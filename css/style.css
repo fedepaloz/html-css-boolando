@@ -43,12 +43,90 @@ header {
     background-position: center;
     position: relative;
 
-
 }
+
 
 .column-swap:hover {
     background-image: url(../img/1b.webp);
 }
+
+
+.column-swap-2 {
+    background-color: bisque;
+    flex-basis: 33%;
+    height: 100%;
+    background-image: url(../img/2.webp);
+    background-size: contain;
+    background-position: center;
+    position: relative;
+
+
+}
+
+.column-swap-2:hover {
+    background-image: url(../img/2b.webp);
+
+}
+
+.column-swap-3 {
+    background-color: bisque;
+    flex-basis: 33%;
+    height: 100%;
+    background-image: url(../img/3.webp);
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+
+.column-swap-3:hover {
+    background-image: url(../img/3b.webp);
+}
+
+.column-swap-4 {
+    background-color: bisque;
+    flex-basis: 33%;
+    height: 100%;
+    background-image: url(../img/4.webp);
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+
+.column-swap-4:hover {
+    background-image: url(../img/4b.webp);
+}
+
+.column-swap-5 {
+    background-color: bisque;
+    flex-basis: 33%;
+    height: 100%;
+    background-image: url(../img/5.webp);
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+
+.column-swap-5:hover {
+    background-image: url(../img/5b.webp);
+}
+
+.column-swap-6 {
+    background-color: bisque;
+    flex-basis: 33%;
+    height: 100%;
+    background-image: url(../img/6.webp);
+    background-size: contain;
+    background-position: center;
+    position: relative;
+}
+
+.column-swap-6:hover {
+    background-image: url(../img/6b.webp);
+}
+
+
+
+
 
 .tag {
     display: flex;
