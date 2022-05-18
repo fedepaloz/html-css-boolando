@@ -31,17 +31,17 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: relative;
+   
 }
 
 .column-swap {
     background-color: bisque;
     flex-basis: 33%;
     height: 100%;
-    ;
     background-image: url(../img/1.webp);
     background-size: contain;
     background-position: center;
+    position: relative;
 
 
 }
@@ -55,6 +55,11 @@ header {
     position: absolute;
     left: 0;
     bottom: 50px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
 }
 
 .discount-tag {
@@ -72,3 +77,5 @@ header {
     background-color: green;
     color: white;
 }
+
+#cuore{color: black;width: 100px;height: 100px;position: absolute;right: 0;display: flex;flex-direction:column;align-items: flex-end;}
