@@ -13,6 +13,14 @@ header {
     width: 100%;
     height: 80px;
     background-color: #FF6900;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 1;
+    margin-bottom: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 }
 
 .container {
@@ -32,6 +40,7 @@ header {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 100px;
+    margin-top: 100px;
 
 }
 
@@ -159,15 +168,19 @@ header {
     color: white;
 }
 
-#cuore {
+.cuore {
     color: black;
-    width: 100px;
-    height: 100px;
+    width: 40px;
+    height: 40px;
     position: absolute;
     right: 0;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items:center;
+    right: o;
+    top: 20px;
+    background-color: white;
+    justify-content: center;
 }
 
 
@@ -176,3 +189,18 @@ header {
 .art-info{position: absolute;top: 100%;height: 10px;}
 
 .fit{font-size: 20px;font-weight: bold;}
+
+.discount{color: red;text-decoration: line-through red;font-weight: bold;}
+
+a{text-decoration: none;}
+/* .gender-button{height: 80px; line-height: 80px;text-align: left;} */
+.h-text{color: white;font-weight: bold;font-size: 20px;}
+
+.logo{width: 200px;}
+
+.logo-set{color: white;}
+
+.gender-button{width: 200px;display: flex;justify-content: space-between;}
+
+
+footer{width: 100%;height: 200px; background-color: #1A1A1A;position: absolute;bottom: 0;}
