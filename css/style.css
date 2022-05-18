@@ -31,6 +31,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 100px;
 
 }
 
@@ -45,6 +46,9 @@ header {
 
 }
 
+.column-margin {
+    margin: 0px 20px
+}
 
 .column-swap:hover {
     background-image: url(../img/1b.webp);
@@ -165,3 +169,8 @@ header {
     flex-direction: column;
     align-items: flex-end;
 }
+
+
+
+
+.art-info{position: absolute;top: 100%;height: 10px;}
